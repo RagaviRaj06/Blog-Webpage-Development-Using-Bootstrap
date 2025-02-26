@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="bg-secondary">
+    <!--script = bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!--<div class="container">
+fixed width container
+    <h1>Learning Bootstrap</h1>
+    <p>This is a fixed width container</p>
+#full container-->
+    <!--div class="container-fluid"
+#Typography
+    <p class="h1">h1 Bootstrap heading</p>
+    <p class="h2">h1 Bootstrap heading</p>
+    <p class="h3">h1 Bootstrap heading</p>
+    <p class="h4">h1 Bootstrap heading</p>
+    <p class="h5">h1 Bootstrap heading</p>
+    <p class="h6">h1 Bootstrap heading</p>
+    <p class="display-1">h1 Bootstrap heading</p>
+    <p class="display-2">h1 Bootstrap heading</p>
+    <p class="display-3">h1 Bootstrap heading</p>
+    <p class="display-4">h1 Bootstrap heading</p>
+    <p class="display-5">h1 Bootstrap heading</p>
+    <p class="display-6">h1 Bootstrap heading</p>
+#textcolor
+    <p class="text-muted">Muted</p>
+    <p class="text-primary">primary</p>
+    <p class="text-success">success</p>
+    <p class="text-info">info</p>
+    <p class="text-warning">warning</p>
+    <p class="text-danger">danger</p>
+    <p class="text-secondary">secondary</p>
+    <p class="text-white">white</p>
+    <p class="text-dark">dark</p>
+    <p class="text-light">light</p>
+#bg color
+    <p class="bg-muted">Muted</p>
+    <p class="bg-primary">primary</p>
+    <p class="bg-success">success</p>
+    <p class="bg-info">info</p>
+    <p class="bg-warning">warning</p>
+    <p class="bg-danger">danger</p>
+    <p class="bg-secondary">secondary</p>
+    <p class="bg-white">white</p>
+    <p class="bg-dark">dark</p>
+    <p class="bg-light">light</p>
+#grid system  
+    <div class="row">
+        <div class="col">
+            <p>HI</p>
+        </div>
+        <div class="col">
+            <p>HI</p>
+        </div>
+        <div class="col">
+            <p>HI</p>
+        </div>
+        <div class="col">
+            <p>HI</p>
+        </div>
+    </div>
+    </div>-->
+<!--Simple blog layout-->
+<!--Position-->
+    <header class="p-3 bg-dark text-white sticky-top" >
+        <div class="row">
+            <div class="col">
+                <h1>My Blog</h1>
+            </div>
+            <div class="col mt-2 d-flex justify-content-start justify-content-md-end">
+                <nav>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Home</a></li>
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">About</a></li>
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container pt-3 pb-3 py-3 ">
+        <!--Card-->
+        <div class="card bg-info">
+            <div class="card-body">
+                <h1 class="card-title">Simple Blog with Bootstrap 5</h1>
+                <p class="card-text">Here your recent view post!!</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <!--img & img container-->
+                        <img src="https://picsum.photos/150/90" class="img-fluid  w-100 h-100" alt="">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h2 class ="mb-3">Post Title 1</h2>
+                                <p>Date: Feb 15, 2025</p>
+                                <p>This is the content of post1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4  col-lg-3 mt-2">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="https://picsum.photos/150/90" class="img-fluid h-100 w-100" alt="">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <h2 class ="mb-3">Post Title 2</h2>
+                                <p>Date: Feb 16, 2025</p>
+                                <p>This is the content of post2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="https://picsum.photos/150/90" class="img-fluid h-100 w-100" alt="">
+                        </div>
+                    <div class="col-6 col-sm-12">
+                        <div class="card-body">
+                            <h2 class ="mb-3">Post Title 3</h2>
+                            <p>Date: Feb 17, 2025</p>
+                            <p>This is the content of post3</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2 ">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img src="https://picsum.photos/150/90" class="img-fluid h-100 w-100" alt="">
+                        </div>
+                    <div class="col-6 col-sm-12">
+                        <div class="card-body">
+                            <h2 class ="mb-3">Post Title 4</h2>
+                            <p>Date: Feb 18, 2025</p>
+                            <p>This is the content of post4</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                        <img src="https://picsum.photos/150/90" class="img-fluid w-100 h-100" alt="">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                        <div class="card-body">
+                            <h2 class ="mb-3">Post Title 5</h2>
+                            <p>Date: Feb 19, 2025</p>
+                            <p>This is the content of post5</p>                
+                        </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <!--width & height for the img-->
+                            <img src="https://picsum.photos/150/90" class="img-fluid w-100 h-100" alt="">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <h2 class ="mb-3">Post Title 6</h2>
+                                <p>Date: Feb 20, 2025</p>
+                                <p>This is the content of post6</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-2" >
+        <div class="contactform">
+        <div class="row">
+            <div class="col-12 col-lg-6 bg-white p-3">
+                <h2>Contact Form</h2>
+                <!--form-->
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <!--formaction = The form action attribute specifies where to send the form-data when a form is submitted-->
+                        <input type="email" class="form-control" id="" name="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Name</label>
+                        <input type="text" class="form-control" id =" " name="">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Message</label>
+                        <textarea name="" class="form-control" id="" cols="10" rows="5"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer class="p-3 bg-dark text-white">
+        <div class="row">
+            <div class="col">
+            <p>My Blog. All Rights reserved</p>
+            </div>
+            <div class="col d-flex justify-content-start justify-content-md-end">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a class="text-white text-decoration-none"href="#">Terms of service</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none"href="">Privacy policy</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none"href="#">Site map</a></li>
+                </ul>
+            </div>
+        </div> 
+    </footer>
+</body>
+</html>
